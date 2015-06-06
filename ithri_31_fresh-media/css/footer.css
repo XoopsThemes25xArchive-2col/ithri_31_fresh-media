@@ -1,0 +1,108 @@
+/* footer */
+#footer-wrap {
+	position: relative;
+	clear: both;
+	padding: 1em 0 2.5em 0;
+	margin-top: 4px;
+	font: normal 1em 'Trebuchet MS', Tahoma, sans-serif;	
+	background: #ECF8FE;
+	color: #777;
+	width: 900px;
+	float: left;
+    height:110px;;	
+}
+#footer-wrap h3 {
+	font: normal 1.6em/1.6em 'Trebuchet MS', Tahoma, sans-serif;
+	text-transform: none;
+	letter-spacing: 0;
+	margin-left: 0;	
+	color: #666666;	
+}
+#footer-content {	
+	margin: 0 auto;		
+	width: 880px;
+	text-align: left;
+    	
+}
+#footer-content ul.col-list {
+	background: url(../img/dots.gif) repeat-x left top;
+	list-style: none;
+	margin: 5px 0 0 5px; padding: 0;	
+	width: 98%;
+}
+#footer-content ul.col-list li {
+	background: url(../img/dots.gif) repeat-x left bottom;
+}
+#footer-content ul.col-list li a {
+	display: block;
+	line-height: 2em;
+	font-weight: bold;
+	padding: 4px 0 4px 8px;
+	width: 98%;	
+	color: #777;
+	border: none;
+}
+#footer-content ul.col-list li a:hover {
+	color: #333;
+	text-decoration: none;
+}
+#footer-content ul.col-list li a span {
+	color: #989898;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#footer-content .col {
+	width: 280px;
+	padding: 0 0 30px 0;			
+	display: inline;
+}
+#footer-content .space-sep {
+	margin-right: 12px;
+}
+#footer-content .col2 {
+	width: 285px;
+	padding: 0 0 30px 0;	
+	display: inline;	
+}
+
+/* postmeta */
+.postmeta {	
+	padding: 5px; margin: 20px 10px 15px 10px;	
+	font-size: 1em;	
+	color: #777;
+	border: 1px solid #ECF8FE;
+	background: #ECF8FE;
+}
+.postmeta .date{ margin: 0 10px 0 5px;	}
+.postmeta a.comments { margin: 0 10px 0 5px;	}
+.postmeta a.readmore { margin: 0 10px 0 5px;	}
+
+.post-info { font-size: .95em; padding-top: 3px; margin-left: 5px; color: #bababa;	}
+.post-info a { color: #C5935C; }
+
+/* thumbnails */
+p.thumbs{ padding: 12px 0 0 10px; }
+
+.thumbs img { 
+	position: relative;
+	border: 1px solid #ebebeb;
+	background: none;
+	padding: 4px;
+	margin: 5px;
+	/* margin: 4px 7px 4px 4px; */	
+}
+.thumbs img:hover	{
+	border: 1px solid #c5c5c5; 
+	background: none;	
+}
+.thumbs a:hover { background-color: transparent; border: none }
+
+/* alignment classes */
+.float-left  { float: left; }
+.float-right { float: right; }
+.align-left  { text-align: left; }
+.align-right { text-align: right; }
+
+/* display and additional classes */
+.clearer { clear: both; }

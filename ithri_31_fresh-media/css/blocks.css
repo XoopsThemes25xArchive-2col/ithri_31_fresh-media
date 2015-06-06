@@ -1,0 +1,74 @@
+
+#xo-canvas-leftcolumn { 
+	padding: 0px;
+	width : 200px;
+	padding-top:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle {
+    padding-top:4px;
+    color: #666666; 
+	background: ;
+    font-size: 1.6em;
+    margin-right:  0px ;
+	
+	font-weight: bold;  
+	padding: 8px;
+	padding-top:2px;
+
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding-bottom: 10px;
+	padding-right:2px;
+	
+	
+}
+
+
+
+
+#xo-page .xo-block {
+  margin: 8px;
+  
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  padding:4px;
+  padding-left: 4px;
+  color : #694f42;
+  font-weight: bold;
+   font-size:1.4em;
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+ 
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  border-bottom: ;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+   padding:4px;
+  padding-left: 4px;
+  color:  #694f42;
+  font-weight: bold;
+   font-size:1.4em;
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+
+
+

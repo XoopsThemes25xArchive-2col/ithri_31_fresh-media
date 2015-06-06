@@ -1,0 +1,274 @@
+
+@import url("content.css");
+@import url("blocks.css");
+@import url("footer.css");
+
+
+
+
+* { margin: 0; padding: 0; outline: 0 }
+
+body {
+	font: 11px/165% "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; padding: 0 0 10px 0; 
+	background: #fff;
+	text-align: center;
+}
+
+}
+#xo-page {
+	padding-top: 4px;   background: transparent;
+    padding-bottom: 8px;	
+	
+}
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+  color:#AFB8D3;
+  /*margin:8px;*/
+  /*border: 2px solid #000;*/
+  
+}
+
+
+
+
+#wrap-out {
+	position: relative;
+	background: #fff url(../img/header-bg.jpg) repeat-x;
+	width: 900px;	
+	margin: 0 auto;
+	text-align: left;	
+}
+#wrap {
+	background: url(../img/header-photo.jpg) no-repeat right top;
+	width: 900px;	
+	margin: 0 auto;	
+}
+#content-wrap {
+	position: relative;
+	clear: both;
+	float: left;	
+	width: 900px;	
+	padding: 0; 		
+	margin-left: 5px;	
+	background: transparent;
+	display: inline;	
+}
+#header {
+	position: relative;
+	width: 900px;	
+	height: 325px;	
+	padding: 0;	
+	margin: 0 auto;
+	background: transparent;
+}
+
+
+/*  Navigation  */
+#nav {
+	position: absolute;
+	clear: both;	
+	margin: 0; padding: 0;		
+	height: 35px;
+	left: 0;	top: 35px;	
+	z-index: 99999;
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	width: 900px;		
+	height: 35px;
+	text-transform: uppercase;
+	margin: 0;	padding: 0;	
+	display: inline;
+}
+#nav ul li {
+	display: inline;
+	margin: 0; padding: 0;
+}
+#nav ul li a {
+	float: left;
+	margin: 0;	padding: 0 10px;
+	font: bold 15px/35px "Trebuchet MS", Helvetica, Arial, Geneva, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;	
+	letter-spacing: -0.3px;
+	color: #694f42;
+}
+#nav ul li a:hover, 
+#nav ul li a:active {
+	color: #111;
+	background: none;
+	border: none;
+}
+#nav ul li#current a {	
+	color: #0da7d2;	
+}
+
+#header h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 72px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -1.5px;
+	color: #fff;
+	text-transform: none;
+	text-decoration: none;
+	
+	/* change the values of top and left to adjust the position of the logo*/
+	top: 95px; left: 30px;	
+}
+
+#header h1#logo-text a:hover {
+	background: none;	border: none;
+}
+#header p#intro {
+	position: absolute;
+	margin: 0; padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.6em;
+	font-style: italic;
+	text-transform: none;
+	color: #755643;
+	width: 400px;
+	
+	/* change the values of top and left to adjust the position */
+	top: 190px; left: 35px;		
+}
+
+
+
+#mainmenu {	font-size: 1.2em;}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 8px 4px 4px 18px;
+  font-weight:		bold;
+  border-bottom: 1px dotted #895F30;
+  
+}
+#mainmenu a:hover { }
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+  padding-left: 25px;
+  background: none;
+  border: none;
+  color:#333;
+  font-size: .9em;
+}
+#mainmenu a.menuSub:hover { }
+
+#usermenu {	font-size: 1.1em; }
+#usermenu a {
+  display: block;
+  margin: 0;
+  padding: 8px 4px 4px 18px;
+  border-bottom: 1px dotted #895F30;
+}
+#usermenu a:hover { }
+#usermenu a.menuTop {}
+
+
+
+#footer{
+height:46px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1em;
+color:#424756;
+text-align:center;
+background:url("../img/bot_bg.gif")  repeat-x;
+padding-top:10px;
+
+
+}
+#footer a{
+color:#AFB8D3;
+text-decoration:underline
+}
+#footer a:visited{text-decoration:underline}
+#footer a:hover{text-decoration:none}
+
+
+#xo-redirect {	
+margin: 10px 80px 10px 80px;	
+background-color: #fafafa;	padding: 8px;	
+line-height: 1.4em;	text-align: center;	
+border: 1px solid #ddd;
+color:#fff;
+}
+
+
+#xo-siteclosed {
+	margin: 10px 200px 10px 200px;	
+	background-color: #fafafa;	
+	padding: 8px;	
+	line-height: 1.6em;	
+	text-align: center;	
+	border: 1px solid #ddd;}
+#xo-siteclosed strong {	
+	display: block;	
+	font-style: normal;}
+#xo-siteclosed label {	
+	font-size: .9em;	
+	font-weight: normal;}
+	#xo-siteclosed input {margin: 2px;
+	}
+
+
+#xo-pagenav {
+    margin:                 7px 0;
+    text-align:             center;
+    font-size:              1em;
+}
+#xo-pagenav a {
+    text-decoration:        none;
+}
+#xo-pagenav a:hover {
+    color:                  #1251c6;
+     background:			#eceff2 ;
+    border:                 1px solid #000;
+}
+.xo-pagact {
+    margin:                 0;
+    padding:                .1em .3em;
+    color:                  #1251c6;
+    background:				#eceff2 ;
+    border:                 1px solid #000;
+}
+.xo-counterpage, .xo-pagarrow {
+    margin:                 0;
+    padding:                .1em .53em;
+    color:                  #fff;
+    background-color:       #000;
+    border:1px solid #1E2027;
+}
+.xo-counterpage:hover {}
+.xo-pagarrow {
+    letter-spacing:         0.1em;
+}
+
+
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #000;
+}
+
+
+
+
+
+
+
+
+
+
+

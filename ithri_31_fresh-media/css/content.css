@@ -1,0 +1,298 @@
+
+
+a, a:active, a:link {
+	text-decoration: none;
+	color: #0B9AC7;	
+    font-family: "Trebuchet MS", Tahoma, Helvetica, Arial, Sans-serif;	
+}
+
+a:hover {
+	color: #895F30;
+	border-bottom: 1px dotted #895F30;
+}
+
+
+
+h1, h2, h3, h4 {
+	font: bold 1/1.4em 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+}
+
+
+
+p { 
+	padding: 4px;
+}
+
+img {
+   position: relative;
+}
+
+
+hr {
+  color: #ccc;
+  border: #ccc;
+  background: #ccc;
+  height: 1px;
+}
+
+
+
+/* --------- Tables and cells --------- */
+table {
+	width: 100%;
+	text-align:left;
+    
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 1; 
+    border-color: #231A14;	
+}
+
+
+th {
+	background: #ADD8E6 url(../img/header-bg.jpg) repeat-x 0 -100px;
+	height: 38px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	text-align: left;
+	border-left: 1px solid #78C7FA;
+	border-bottom: solid 2px #fff;
+}
+
+ul{
+	padding: 4px;
+	font-weight: bold;
+	
+}
+
+
+
+.outer {
+	padding: 2px;
+	
+}
+.head {
+  background: #ADD8E6 ;
+  color:#777;
+  font-weight: bold;
+  padding: 5px;
+ 
+}
+
+.even {
+    font-size: 1em;
+	color:#AFB8D3;
+	padding: 5px;
+}
+.odd {
+    font-size: 1em;
+	color:#AFB8D3;
+	padding: 5px;
+}
+.foot {
+	background-color: #D6D6D6;
+	padding: 5px;
+	font-weight: bold;
+}
+tr.even td {
+	border-bottom: solid 1px #ECF8FE;
+	padding: 5px;
+	
+}
+tr.odd td {
+	border-bottom: solid 1px #ECF8FE;
+	padding: 5px;
+	
+}
+
+
+
+
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	color: #fff;  
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+
+.xoopsCode {
+	max-height: 200px;
+	margin: 6px;
+	padding: 6px; 
+	overflow: auto;
+	color: #fff;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	font-size: .9em; 
+	border: 1px dashed #fff;
+	background: #68BF55;
+}
+.xoopsQuote {
+	margin: 15px 10px;
+ 	padding: 10px 10px 10px 35px;  
+   border: 1px solid #ECF8FE;
+	background: #ECF8FE url(../img/quote.jpg) no-repeat 10px 10px;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	color: #976957;
+}
+
+
+.item {
+	margin-top: 10px;
+	font-size:1.1em;
+}
+.itemHead {
+	height: 20px;
+	padding-top:2px;
+	font-size:1.1em;
+	background:  ;
+}
+.itemInfo { 
+	padding: 3px;
+	text-align:right; 
+}
+.itemTitle {
+}
+
+.itemTitle a {
+	padding: 4px;
+	color:#0B9AC7;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	font-weight: bold;
+	
+}
+.itemPoster {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemPostDate {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemStats {
+	font-size: .9em;
+	font-style: normal; color:#CD3333;
+}
+.itemBody {
+padding-left : 3px;
+
+
+
+}
+.itemText {
+	color: #666666;
+	font-size:1.1em;
+	line-height:1.4em;
+	padding:10px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	
+}
+.itemFoot {  
+	background:#ECF8FE;
+	border-left: none; 
+	border-right: none; 
+	padding: 10px 10px; 
+	margin: 2px 0px 0px 10px; 
+	color: #597eb2 !important; 
+	text-align:center;
+	
+}
+.itemAdminLink {
+    font-size: .9em;  
+	color:#CD3333;	
+}
+.itemPermaLink {
+    font-size: .9em; 
+	margin: 							0 20px 10px 0; 
+	padding: 						0 20px; 
+	padding-bottom:4px;	
+	color:     #CD3333;
+}
+
+
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color:;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+    border:1px solid #1E2027;  
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
